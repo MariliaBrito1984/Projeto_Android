@@ -33,7 +33,7 @@
 
 body{
     background: var(--cor01);
-      
+    min-width: 400px;  
 }
 
 header{
@@ -149,9 +149,7 @@ main a:hover{
     text-decoration: unset;
     background: var(--cor01);    
     padding: 2px 10px ;
-    cursor: pointer; 
-    
-    
+    cursor: pointer;     
 }
 
 main a::after{
@@ -221,6 +219,7 @@ aside > ul{
 
 aside ul li{
    font-weight: bold;
+   font-size: 3.1vw;
    padding-left: 10px;
 }
 
